@@ -5,9 +5,8 @@ pipeline {
             agent {
                 echo ' hello mon test'
             }
-            steps {
-                sh 'gradle --version'
-            }
+            
+            
         }
     }
 }
