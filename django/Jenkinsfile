@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             agent {
-                echo ' hello mon test'
+                echo 'test  hello mon test'
             }
             
             
