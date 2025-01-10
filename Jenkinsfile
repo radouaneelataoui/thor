@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('BUILD') {
       steps {
-             fred_test
         echo 'Hello BUILD par fred'
       }
     }
