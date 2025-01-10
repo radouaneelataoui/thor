@@ -13,7 +13,7 @@ pipeline {
     }
     stage('DEPLOY') {
       steps {
-        echo ' DEPLOY par fred'
+        echo 'test scan DEPLOY par fred'
       }
     }
   }
